@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../Documents/java"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "html tryouts"
+	}
+}
