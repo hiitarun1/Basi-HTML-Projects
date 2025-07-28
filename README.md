@@ -18,4 +18,4 @@ To view any project:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/hiitarun1/Basi-HTML-Projects.git
+   git clone https://github.com/hiitarun1/Basic-HTML-Projects.git
