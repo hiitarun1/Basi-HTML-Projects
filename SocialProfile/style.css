@@ -1,0 +1,140 @@
+*{
+margin:0;
+padding: 0;
+box-sizing: border-box;
+}
+body{
+    height:100vh;
+    background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.image{
+    display:flex;
+    position:relative;
+    height:150px;
+    width:150px;
+    border-radius: 50%;
+    background-color: rgb(58, 123, 234);
+    padding:3px;
+}
+.image .profile-img{
+    height:100%;
+    width:100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border:3px solid white
+}
+.profile-card{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    max-width:370px;
+    width:100%;
+    background: white;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    padding: 5px;
+    border-radius: 10px;
+    position:relative;
+}
+.profile-card::before{
+    content: "";
+    position:absolute;
+    top:0;
+    left:0;
+    height:36%;
+    width:100%;
+    border-radius: 10px 10px 0 0;
+    background-color: rgb(28, 134, 205) ;
+}
+.profile-card .textdata{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+.textdata .job{
+    margin-top: 15px;
+    
+}
+.textdata .coding{
+    font-size: large;
+    font-weight: 1000;
+}
+.profile-card .media-icons{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  
+}
+.media-icons .link{
+    
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   color: aliceblue;
+   height: 34px;
+   width: 34px;
+   border-radius: 50%;
+   text-decoration: none;
+   background-color: rgb(67, 121, 168);
+   margin: 0 10px;
+ 
+}
+.profile-card .buttons{
+    margin-top: 20px;
+    
+}
+.subscribe{
+    margin: 0 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: rgb(0, 106, 176);
+    color: white;
+    border-radius: 24px;
+    border: none;
+    cursor: pointer;
+    transition: background-color .4s;
+    transition: color .4s;
+}
+.subscribe:hover{
+    color: rgb(0, 106, 176);
+    background-color: white;
+}
+.message{
+    margin-right: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: rgb(0, 106, 176);
+    color: white;
+    border-radius: 24px;
+    border: none;
+    cursor: pointer;
+    transition: background-color .4s;
+    transition: color .4s;
+}
+.message:hover{
+    color: rgb(0, 106, 176);
+    background-color: white;
+}
+.profile-card .analytics{
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+   
+}
+.analytics .data{
+    display: flex;
+    align-items: center;
+    color: rgb(85, 84, 84);
+    padding: 0 20px;
+    border-right: 2px solid rgb(233, 225, 225);
+}
+.data:last-child{
+    border-right:none;
+}
