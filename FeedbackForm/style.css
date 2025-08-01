@@ -1,0 +1,153 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body {
+    
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  height: 100vh;
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.container {
+  width: 50vw;
+  height: 50vh;
+  display: flex;
+  gap: 10px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 8px;
+    flex-shrink: 0;
+}
+.container .feedback {
+
+  padding: 0px 20px;
+  display: flex;
+
+  margin: 0;
+  flex-direction: column;
+  border-left: 2px solid rgb(212, 202, 202);
+}
+.container .msg {
+  color: rgb(88, 18, 141);
+  font-weight: 800;
+  margin-bottom: 3px;
+}
+.container .descrip {
+  margin-bottom: 5px;
+}
+.container .name,
+.container .email,
+.container .message {
+  outline: none;
+  display: block;
+  margin: 10px 5px;
+  padding: 10px 20px;
+  width: 75%;
+  background-color: rgb(244, 244, 244);
+  border: none;
+  border-radius: 4px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+              rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.container .sendnow {
+  padding: 10px;
+  background-color: rgb(88, 18, 141);
+  color: aliceblue;
+  margin: 10px 5px;
+  border: 2px solid rgb(88, 18, 141);
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  transition: background-color 0,2s, opacity 0.2s;
+}
+.container .sendnow:hover {
+  cursor: pointer;
+  background-color: rgb(148, 69, 209);
+  border: none;
+}
+.container .information {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+  width: 25%;
+  height: 100%;
+  margin: 8px;
+  text-align: center;
+  
+}
+.container .phone {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1vh;
+}
+.container .phone .digit {
+  color: rgb(177, 174, 174);
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: small;
+  margin-top: 0px;
+}
+.container .phone .digit:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+.container .marker {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1vh;
+}
+.container .marker .adress {
+  color: rgb(177, 174, 174);
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: small;
+  margin-top: 0px;
+  justify-content: center;
+}
+.container .marker .adress:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+.container .email1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container .email1 .gmail {
+  margin-top: 0px;
+  font-size: small;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: rgb(177, 174, 174);
+}
+.container .email1 .gmail:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    width: 90vw;
+    height: auto;
+  }
+
+  .container .information {
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .container .feedback {
+    border-left: none;
+    border-top: 2px solid rgb(212, 202, 202);
+  }
+}
