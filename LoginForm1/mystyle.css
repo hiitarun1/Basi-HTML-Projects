@@ -1,0 +1,90 @@
+body{
+    background-color: rgb(255, 255, 255);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.main-card {
+    display: flex;
+    flex-direction: column;
+    border-radius: 25px;
+    align-items:auto;
+    justify-content: space-between;
+    margin-top: 25%;
+    height:210px;
+    width:380px;
+    background-color: black;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);  
+}
+.main-card .title{
+    margin-top: 20px;
+    margin-left: 20px;
+    object-fit: cover;
+    height:27%;
+    width:50%;
+    display: flex;
+    flex-direction: row;
+   justify-content: space-around;
+}
+.title .image{
+    margin-left:150px;
+    height: 35px;
+    width:90px;
+    margin-top: 10px
+}
+.title{
+        display: flex;
+        position: relative;    
+}
+.main-card .cardinfo{
+    margin-top: 30px;
+    display:inline-flex;
+    align-items:start;
+    justify-content: start;
+    flex-flow: column;
+    color:white;
+    padding: 0 30px;
+}
+.cardinfo .h1{  
+    font-size: 12px;
+    margin-bottom: 0px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.cardinfo .h2{
+    font-size: large;
+    margin-top: 5px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:17px;
+}
+.cardinfo .h3{
+    font-size: large;
+    margin-top: 0px;
+}
+
+.main-card .date{
+    color: white;
+    display: inline-flex;
+    margin-left: 0px;
+    flex-direction: column;
+    align-items:end;
+    justify-content: right;
+}
+.date .same1{
+    margin-bottom: 0px;
+    margin-right: 10px;
+    font-size: 20px;
+}
+.same1 .valid{
+    font-size: 15px;
+}
+.same1 .thru{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+}
+.cardinfo .date{
+    position: absolute;
+    align-self: flex-end;
+}
+.title .text{
+    color: white;
+}
