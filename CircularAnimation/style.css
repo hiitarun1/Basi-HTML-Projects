@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height:100vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+} 
+.container{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:300px;
+    width:300px;
+    border-radius: 50%;
+    box-shadow: -20px -20px 5dvi rgb(253, 244, 244), 10px 10px 10px rgba(0, 0, 0, 0.1);
+}
+.container::before{
+    content: "";
+    position: absolute;
+    height:200px;
+    width: 200px;
+    border-radius: 50%;
+    box-shadow: -10px -10px 15px rgb(255, 244, 244),10px 10px 10px rgba(0,0,0,0.1);
+}
+.container span {
+    position: absolute;
+    height:186px;
+    width:220px;
+    
+    animation: rotate 5s linear infinite;
+}
+@keyframes rotate{
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.container span::before{
+    content:"";
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    background-color: rgb(46, 122, 255);
+    border-radius: 50% ;
+}
