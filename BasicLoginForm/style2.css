@@ -1,0 +1,76 @@
+body{
+    background-color: rgb(62, 239, 183);
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.login-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width:290px;
+    height:300px;
+    background-color: antiquewhite;
+    box-shadow: 0 5 10 rgba(0, 0, 0, 0.7);
+}
+.login-form .details{
+    display:flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.details .form1{
+    padding-right: 10px;
+    padding-left: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight:200;
+    border-radius: 5px;
+    border:1px solid rgb(221, 209, 209);
+}
+.details .form2{
+    padding-right: 10px;
+    padding-left: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight:200;
+    border-radius: 5px;
+    border:1px solid rgb(221, 209, 209);
+}
+.login-form .login{
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: rgb(16, 179, 127);
+    font-weight: bold;
+    color:white;
+    border-radius: 4px;
+    cursor: pointer;
+    border:2px solid  rgb(16, 179, 127);
+    transition: background-color .3s;
+}
+.login-form .login:hover{
+    background-color: white;
+    color:rgb(16, 179, 127);
+}
+.login-form .descrip1{
+    color:rgb(16, 179, 127);
+    font-family:sans-serif;
+    font-size: 13px;
+    cursor: pointer;
+}
+.login-form .descrip1:hover{
+    text-decoration: underline;
+}
+.login-form .forgot-pass{
+    display: flex;
+    justify-content: left;
+}
+.login-form .forgot-pass:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
