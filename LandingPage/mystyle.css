@@ -1,0 +1,633 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #f1f1f1;
+  padding-top: 80px;
+  overflow-x: hidden;
+}
+
+/* Styling for NavBar*/
+
+.navbar {
+  border-radius: 32px;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  backdrop-filter: blur(10px);
+  margin: 0 auto;
+  height: 64px;
+  width: 100vw;
+  padding-top: 8px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  transition: box-shadow 0.3s;
+}
+.navbar:hover {
+  box-shadow: none;
+}
+.nav-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px;
+  height: 100%;
+  margin: 0;
+}
+
+#logo {
+  color: black;
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: kanit;
+  margin-left: 8px;
+}
+#pricing,
+#inspiration,
+#tools {
+  color: rgb(138, 137, 137);
+  text-decoration: none;
+  font-size: large;
+  font-family: kanit;
+  margin: 0px 15px;
+}
+#pricing:hover {
+  background-color: rgb(230, 230, 230);
+  padding: 4px 5px;
+  border-radius: 45px;
+}
+#inspiration:hover {
+  background-color: rgb(230, 230, 230);
+  padding: 4px 5px;
+  border-radius: 45px;
+}
+#tools:hover {
+  background-color: rgb(230, 230, 230);
+  padding: 4px 5px;
+  border-radius: 45px;
+}
+.navbar .goto {
+  color: black;
+  font-family: kanit;
+  padding: 12px 40px;
+  margin-right: 4px;
+  background-color: rgb(138, 196, 253);
+  border: none;
+  border-radius: 35px;
+  transition: background-color 0.3s;
+}
+.navbar .goto:hover {
+  background-color: rgb(57, 179, 245);
+}
+
+/* Styling for Brandname  */
+
+.brandname {
+  height: 30vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(238, 236, 232);
+  margin-top: 10px;
+}
+.brandname h1 {
+  line-height: 55px;
+  font-size: 50px;
+  font-weight: bold;
+  font-family: kanit;
+  text-align: center;
+}
+.brandname p {
+  margin-top: 15px;
+  word-wrap: normal;
+  font-weight: none;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+/*  YEllow Section below HERO section*/
+.yellow {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(255, 208, 20);
+  margin-top: 32px;
+}
+.yellow .top {
+  font-size: 30px;
+  font-family: "Baloo Bhaina 2", sans-serif;
+  text-align: center;
+  margin-top: 36px;
+}
+.yellow .bottom {
+  width: 100%;
+  height: 90%;
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-around;
+  vertical-align: top;
+}
+.bottom .design1 {
+  background-color: rgb(56, 47, 34);
+  width: 20vw;
+  height: 72vh;
+}
+.bottom .design1 img {
+  width: 100%;
+  height: 30vh;
+  padding: 15px;
+}
+.bottom .design1 p {
+  color: rgb(206, 208, 210);
+  font-size: 17px;
+  font-family: kanit;
+  padding: 0px 10px;
+}
+.bottom .design1 .first {
+  padding: 10px 20px;
+  font-weight: bold;
+  border-radius: 50px;
+  background-color: greenyellow;
+  border: none;
+  cursor: pointer;
+  margin-left: 10px;
+  margin-top: 40px;
+  font-weight: bold;
+}
+.bottom .design2 {
+  width: 20vw;
+  height: 60vh;
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  font-family: kanit;
+}
+.design2 .first {
+  background-color: rgb(135, 130, 116);
+  width: 20vw;
+  height: 18vw;
+  margin-top: -75px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: -90px;
+  color: white;
+}
+.design2 .first img {
+  width: 100%;
+  height: 70%;
+  object-fit: cover;
+}
+.design2 .second {
+  background-color: rgb(255, 208, 20);
+}
+.bottom .design3 {
+  width: 20vw;
+  height: 60vh;
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  font-family: kanit;
+}
+.design3 .first {
+  background-color: rgb(239, 105, 105);
+  width: 20vw;
+  height: 18vw;
+  margin-top: -75px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: -90px;
+}
+.design3 .first img {
+  width: 100%;
+  height: 70%;
+  object-fit: cover;
+}
+.design3 .second {
+  background-color: rgb(255, 208, 20);
+}
+.bottom .design4 {
+  background-color: #085556;
+  width: 20vw;
+  height: 64vh;
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  color: rgb(219, 214, 214);
+}
+.design4 .image {
+  width: 17vw;
+  height: 12vw;
+  margin-top: -70px;
+}
+.design4 .image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.design4 .buttons {
+  display: flex;
+  gap: 100px;
+  margin-bottom: 10px;
+}
+.design4 .buttons .green {
+  padding: 10px 20px;
+  font-weight: bold;
+  border-radius: 50px;
+  background-color: greenyellow;
+  border: none;
+  cursor: pointer;
+  margin-left: 10px;
+  margin-top: 40px;
+  font-weight: bold;
+}
+
+/*GRID section */
+
+.midsec {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  width: 100%;
+  margin: 48px;
+  padding: 0px 48px;
+  height: 120vh;
+  gap: 30px;
+}
+.midsec .grad1,
+.grad2,
+.grad3,
+.grad4,
+.grad5,
+.grad6 {
+  margin-left: 10px;
+  margin-top: 20px;
+  height: 60vh;
+  border-radius: 10px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  transition: box-shadow 0.3s;
+}
+.midsec .grad1:hover,
+.grad2:hover,
+.grad3:hover,
+.grad4:hover,
+.grad5:hover,
+.grad6:hover {
+  box-shadow: none;
+  cursor: pointer;
+}
+.grad1 img,
+.grad2 img,
+.grad3 img,
+.grad4 img,
+.grad5 img,
+.grad6 img {
+  width: 100%;
+  height: 60%;
+  object-fit: fill;
+  padding: 8px;
+}
+.grad1 .content,
+.grad2 .content2,
+.grad3 .content3,
+.grad4 .content4,
+.grad5 .content5,
+.grad6 .content6 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 20px;
+  justify-content: center;
+  margin-left: 19px;
+}
+#first {
+  color: rgb(50, 94, 252);
+  font-weight: bold;
+  font-size: larger;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+#second {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+#third {
+  color: rgb(80, 79, 79);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+#fourth {
+  color: rgb(50, 94, 252);
+  font-weight: bold;
+  font-size: larger;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+#fifth {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+#sixth {
+  color: rgb(80, 79, 79);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+#seven {
+  color: rgb(50, 94, 252);
+  font-weight: bold;
+  font-size: larger;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+#eight {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+#nine {
+  color: rgb(80, 79, 79);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+#ten {
+  color: rgb(50, 94, 252);
+  font-weight: bold;
+  font-size: larger;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+#eleven {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+#twelve {
+  color: rgb(80, 79, 79);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+#thirteen {
+  color: rgb(50, 94, 252);
+  font-weight: bold;
+  font-size: larger;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+#fourteen {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+#fifteen {
+  color: rgb(80, 79, 79);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+#sixteen {
+  color: rgb(50, 94, 252);
+  font-weight: bold;
+  font-size: larger;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+#seventeen {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+#eightteen {
+  color: rgb(80, 79, 79);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+/* Styling for gradient generator section after grid  */
+
+.generator {
+  background-color: rgb(59, 47, 238);
+  margin-top: 92px;
+  height: 20rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.generator h2 {
+  line-height: 40px;
+  font-weight: bold;
+  text-align: center;
+}
+.generator p {
+  margin-top: 15px;
+  text-align: center;
+}
+.generator .goto {
+  margin-top: 35px;
+  padding: 12px 32px;
+  border-radius: 4px;
+  color: grey;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  border: 2px solid white;
+}
+.goto:hover {
+  cursor: pointer;
+}
+
+/* Styling Add Your DNA section */
+
+.secthree {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(34, 178, 230);
+  width: 100vw;
+  height: 100vh;
+  padding-bottom: 32px;
+  margin-top: 3rem;
+  overflow-y: hidden;
+}
+.secthree .imagedisp {
+  height: 70vh;
+  width: 100vh;
+  object-fit: contain;
+  margin-top: 50px;
+  margin-left: 20px;
+  border-radius: 30px;
+  border: 30px solid white;
+}
+.imagedisp img {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+  border: none;
+}
+.secthree .righttext {
+  margin-left: 20px;
+  height: 70vh;
+  width: 100vh;
+  margin-top: 50px;
+  margin-right: 20px;
+}
+.righttext h1 {
+  color: white;
+  vertical-align: middle;
+  font-weight: bold;
+  font-size: 100px;
+}
+#descp1 {
+  color: rgb(253, 249, 249);
+  margin-top: 30px;
+  font-size: 20px;
+  font-family: kanit;
+  font-weight: none;
+}
+#dna {
+  font-weight: bold;
+  color: white;
+}
+#descp2 {
+  color: white;
+  margin-top: 30px;
+  font-size: 20px;
+  font-family: kanit;
+}
+.righttext .getstarted {
+  color: white;
+  font-family: kanit;
+  margin-top: 40px;
+  padding: 13px 40px;
+  background-color: black;
+  border: 2px solid black;
+  border-radius: 35px;
+  transition: background-color 0.3s;
+}
+.righttext .getstarted:hover {
+  cursor: pointer;
+  background-color: rgb(61, 58, 58);
+}
+
+/* Styling the Author section below ADD your DNA*/
+
+.secfour {
+  display: flex;
+  background-color: rgb(252, 249, 249);
+  width: 100%;
+  height: 100%;
+  margin-top: 50px;
+  padding-bottom: 40px;
+}
+.secfour .author {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  margin-top: 50px;
+  width: 16rem;
+  height: 32rem;
+  margin-left: 5rem;
+  border-top-left-radius: 160px;
+  border-top-right-radius: 160px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  background-color: rgb(200, 194, 198);
+}
+.author .image {
+  width: 16vw;
+  height: 40vh;
+  border-top-left-radius: 46%;
+  border-top-right-radius: 46%;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  margin-top: 5%;
+  justify-content: center;
+}
+.author .image img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-top-left-radius: 44%;
+  border-top-right-radius: 44%;
+  border-bottom-left-radius: 40%;
+  border-bottom-right-radius: 40%;
+  margin-top: 1%;
+}
+.author .description {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  gap: 10px;
+  justify-content: space-between;
+  align-items: center;
+  font-family: kanit;
+  font-size: large;
+}
+#nimble {
+  margin-top: 50px;
+  font-size: 32px;
+  padding: 0px 12px;
+}
+.secfour .wordings {
+  width: 50vw;
+  margin-left: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.secfour .wordings p {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 50px;
+  color: rgb(52, 50, 50);
+  text-align: center;
+}
+
+/*Footer section at last*/
+
+.dnafooter {
+  height: 4rem;
+  width: 100%;
+  padding: 0px 16px;
+  background-color: rgb(168, 212, 251);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.dnafooter p {
+  font-size: larger;
+  font-family: kanit;
+  margin-right: 30px;
+}
+.dnafooter .getstarted2 {
+  color: white;
+  font-family: kanit;
+  padding: 13px 40px;
+  background-color: rgb(255, 123, 67);
+  border: none;
+  border-radius: 35px;
+  transition: background-color 0.3s;
+}
+.dnafooter .getstarted2:hover {
+  cursor: pointer;
+  background-color: rgb(243, 142, 60);
+}
+.dnafooter .help {
+  color: black;
+  font-family: kanit;
+  padding: 13px 40px;
+  background-color: rgb(255, 255, 255);
+  border: none;
+  margin-left: 90px;
+  border-radius: 4px;
+  margin-left: 100px;
+  transition: background-color 0.3s;
+  box-shadow: 2px 2px 2px rgb(176, 176, 176);
+}
+.dnafooter .help:hover {
+  box-shadow: none;
+  cursor: pointer;
+}
+
