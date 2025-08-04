@@ -1,0 +1,13 @@
+.section_2_container{
+  background-color: black;
+}
+.section_5{
+ box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; 
+ padding-bottom: 20px;
+ transition: box-shadow 0.2s;
+ cursor: pointer;
+ border-radius: 8px;
+}
+.section_5:hover{
+  box-shadow: none;
+}

@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+
+    <!--Navbar section-->
+       <nav class="navbar navbar-expand-lg bg-white">
+      <div class="container-fluid">
+        <a class="navbar-brand d-flex align-items-center" href="#">
+          <img
+            src="./images/pngwing.com.png"
+            alt="Logo"
+            width="34"
+            height="34"
+            class="d-inline-block align-text-center me-2"
+          />
+          Starbucks
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ms-auto">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link" href="#">Features</a>
+            <a class="nav-link" href="#">Pricing</a>
+            <a class="nav-link disabled" aria-disabled="true">Sign in</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+
+      <!--header section-->
+     <div class="container py-5 style="max-width: 960px;">
+      <div class="row flex-lg-row-reverse align-items-center g-5">
+        <!-- Image Column -->
+        <div class="col-12 col-sm-10 col-md-8 col-lg-6 mx-auto">
+          <img
+            id="firstone"
+            src="./images/pngwing.com.png"
+            class="d-block mx-auto img-fluid"
+            alt="Starbucks Image"
+            width="400"
+            height="600"
+            loading="lazy"
+          />
+        </div>
+
+        <!-- Text Column -->
+        <div class="col-lg-6 text-lg-start text-center px-4">
+          <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">
+            Starbucks: Crafted with Care, Enjoyed with Passion.
+          </h1>
+          <p class="lead">
+            Starbucks is committed to sourcing high-quality arabica coffee beans
+            from around the world, and working directly with farmers to ensure
+            they are paid a fair price. The company is also committed to
+            sustainability and reducing its environmental impact.
+          </p>
+        </div>
+      </div>
+    </div>
+
+      <!--Section2-->
+      <main class="section_2_container container py-5">
+      <hr class="my-5" />
+      <div class="row" data-masonry='{"percentPosition": true }'>
+        <!-- Card 1 -->
+        <div class="col-sm-6 col-lg-4 mb-4">
+          <div class="card">
+            <img
+              src="./images/fahmi-fakhrudin-nzyzAUsbV0M-unsplash.jpg"
+              alt="Coffee Latte"
+              class="img-fluid"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Coffee Latte</h5>
+              <p class="card-text">
+                A caffè latte is a coffee drink made with espresso and steamed
+                milk. It is typically served in a glass and topped with a thin
+                layer of foam.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="col-sm-6 col-lg-4 mb-4">
+          <div class="card p-3">
+            <figure class="p-3 mb-0">
+              <blockquote class="blockquote">
+                <p>
+                  "I like my coffee like I like myself: strong, sweet, and too
+                  hot for you."
+                </p>
+              </blockquote>
+              <figcaption class="blockquote-footer mb-0 text-body-secondary">
+                Jesse <cite title="Source Title">Jones</cite>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="col-sm-6 col-lg-4 mb-4">
+          <div class="card">
+            <img
+              src="./images/taylor-franz-GJogrGZxKJE-unsplash.jpg"
+              alt="Espresso"
+              class="img-fluid"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Espresso</h5>
+              <p class="card-text">
+                Espresso is produced by forcing hot water under high pressure
+                through finely ground coffee beans.
+              </p>
+              <p class="card-text">
+                <small class="text-body-secondary">Last updated 3 mins ago</small>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="col-sm-6 col-lg-4 mb-4">
+          <div class="card text-bg-primary text-center p-3">
+            <figure class="mb-0">
+              <blockquote class="blockquote">
+                <p>
+                  "I orchestrate my mornings to the tune of percolated coffee."
+                </p>
+              </blockquote>
+              <figcaption class="blockquote-footer mb-0 text-white">
+                Terri <cite title="Source Title">Guillemets</cite>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+
+        <!-- Card 5 -->
+        <div class="col-sm-6 col-lg-4 mb-4">
+          <div class="card text-center">
+            <div class="card-body">
+              <h5 class="card-title">Cappuccino</h5>
+              <p class="card-text">
+                A traditional cappuccino consists of three equal parts:
+                espresso, steamed milk, and foamed milk.
+              </p>
+              <p class="card-text">
+                <small class="text-body-secondary">Last updated 3 mins ago</small>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 6 -->
+        <div class="col-sm-6 col-lg-4 mb-4">
+          <div class="card">
+            <img
+              src="./images/ham-kris-KvMxh8lYuOY-unsplash.jpg"
+              alt=""
+              class="img-fluid"
+            />
+          </div>
+        </div>
+
+        <!-- Card 7 -->
+        <div class="col-sm-6 col-lg-4 mb-4">
+          <div class="card p-3 text-end">
+            <figure class="mb-0">
+              <blockquote class="blockquote">
+                <p>
+                  "I would rather take coffee than compliments just now."
+                </p>
+              </blockquote>
+              <figcaption class="blockquote-footer mb-0 text-body-secondary">
+                Louisa May Alcott <cite title="Source Title">Little Women</cite>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+
+        <!-- Card 8 -->
+        <div class="col-sm-6 col-lg-4 mb-4">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Double Espresso</h5>
+              <p class="card-text">
+                Espresso is produced by forcing hot water under high pressure
+                through finely ground coffee beans. This process extracts a
+                concentrated shot of coffee with a rich and robust flavor.
+              </p>
+              <p class="card-text">
+                <small class="text-body-secondary">Last updated 3 mins ago</small>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+      <!--section3-->
+      <div class="container3">
+        <div class="container py-5" id="icon-grid">
+          <div
+            class="beginning row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5"
+          >
+            <div class="feed1 col d-flex align-items-start">
+              <svg
+                xmlns="./images/http://www.w3.org/2000/svg"
+                width="45"
+                height="45"
+                viewBox="0 0 24 24"
+                style="fill: rgba(0, 0, 0, 1)"
+              >
+                <path
+                  d="M6 22h15v-2H6.012C5.55 19.988 5 19.805 5 19s.55-.988 1.012-1H21V4c0-1.103-.897-2-2-2H6c-1.206 0-3 .799-3 3v14c0 2.201 1.794 3 3 3zM5 8V5c0-.805.55-.988 1-1h13v12H5V8z"
+                ></path>
+                <path d="M8 6h9v2H8z"></path>
+              </svg>
+              <div>
+                <h3 class="fw-bold mx-2 mb-0 fs-4 text-body-emphasis">
+                  Brewing Guides and Resources
+                </h3>
+                <p class="mx-2">
+                  Paragraph of text beneath the heading to explain the heading.
+                </p>
+              </div>
+            </div>
+
+            <div class="feed2 d-flex align-items-start">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="45"
+                height="45"
+                viewBox="0 0 24 24"
+                style="fill: rgba(0, 0, 0, 1)"
+              >
+                <path
+                  d="m6.516 14.323-1.49 6.452a.998.998 0 0 0 1.529 1.057L12 18.202l5.445 3.63a1.001 1.001 0 0 0 1.517-1.106l-1.829-6.4 4.536-4.082a1 1 0 0 0-.59-1.74l-5.701-.454-2.467-5.461a.998.998 0 0 0-1.822 0L8.622 8.05l-5.701.453a1 1 0 0 0-.619 1.713l4.214 4.107zm2.853-4.326a.998.998 0 0 0 .832-.586L12 5.43l1.799 3.981a.998.998 0 0 0 .832.586l3.972.315-3.271 2.944c-.284.256-.397.65-.293 1.018l1.253 4.385-3.736-2.491a.995.995 0 0 0-1.109 0l-3.904 2.603 1.05-4.546a1 1 0 0 0-.276-.94l-3.038-2.962 4.09-.326z"
+                ></path>
+              </svg>
+              <div>
+                <h3 class="fw-bold mx-2 mb-0 fs-4 text-body-emphasis">
+                  Customer Reviews and Ratings
+                </h3>
+                <p class="mx-2">
+                  Paragraph of text beneath the heading to explain the heading.
+                </p>
+              </div>
+            </div>
+
+            <div class="feed3 col d-flex align-items-start">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="45"
+                height="45"
+                viewBox="0 0 24 24"
+                style="fill: rgba(0, 0, 0, 1)"
+              >
+                <path
+                  d="M19.148 2.971A2.008 2.008 0 0 0 17.434 2H6.566c-.698 0-1.355.372-1.714.971L2.143 7.485A.995.995 0 0 0 2 8a3.97 3.97 0 0 0 1 2.618V19c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-8.382A3.97 3.97 0 0 0 22 8a.995.995 0 0 0-.143-.515l-2.709-4.514zm.836 5.28A2.003 2.003 0 0 1 18 10c-1.103 0-2-.897-2-2 0-.068-.025-.128-.039-.192l.02-.004L15.22 4h2.214l2.55 4.251zM10.819 4h2.361l.813 4.065C13.958 9.137 13.08 10 12 10s-1.958-.863-1.993-1.935L10.819 4zM6.566 4H8.78l-.76 3.804.02.004C8.025 7.872 8 7.932 8 8c0 1.103-.897 2-2 2a2.003 2.003 0 0 1-1.984-1.749L6.566 4zM10 19v-3h4v3h-4zm6 0v-3c0-1.103-.897-2-2-2h-4c-1.103 0-2 .897-2 2v3H5v-7.142c.321.083.652.142 1 .142a3.99 3.99 0 0 0 3-1.357c.733.832 1.807 1.357 3 1.357s2.267-.525 3-1.357A3.99 3.99 0 0 0 18 12c.348 0 .679-.059 1-.142V19h-3z"
+                ></path>
+              </svg>
+              <div>
+                <h3 class="fw-bold mx-2 mb-0 fs-4 text-body-emphasis">
+                  Store Locator
+                </h3>
+                <p class="mx-2">
+                  Paragraph of text beneath the heading to explain the heading.
+                </p>
+              </div>
+            </div>
+
+            <div class="feed4 col d-flex align-items-start">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="45"
+                height="45"
+                viewBox="0 0 24 24"
+                style="fill: rgba(0, 0, 0, 1)"
+              >
+                <path
+                  d="M13.78 18.29c0 .12.15 0 0 0zm-3.35-2.7c.39.17-.31-.6 0 0zm-5.03.28c.15.26 0-.12 0 0zm5.6.39c-.27-.42-.2.06 0 .32.48.47.18-.26 0-.32z"
+                ></path>
+                <path
+                  d="M20.24 19.06c-.53.63-1-.07-1.63.13-1.1 0 .09-.5.06-1-.58-.45-1.24.61-1.62.9a10.75 10.75 0 0 1-2.67-.83 8 8 0 0 1-2.6-1.94 8.36 8.36 0 0 1-1.87-2.84 21.36 21.36 0 0 1-.84-5.74c.07-1.3 1.44.14 2-.33-.21-.67-1.29-.88-1.89-1.16-.58 0-.79-.55-1.4-.59 0-.73-1.13-.33-1.56-.84.42-1.08-1.37 0-1.23-.91.58-1.2-1.78-1-.8.06.95.54-.93.93-.38 1.29a.59.59 0 0 1-.53.86c-.74.07-.67 1.09.06.55.81-.25.14.11-.25.18a1.3 1.3 0 0 0-.95 1.9 35.32 35.32 0 0 1 1 3.42A16.25 16.25 0 0 0 5.84 17 9.78 9.78 0 0 0 8 19a9.89 9.89 0 0 0 2.43 1.22 18 18 0 0 0 4.73.73 16.53 16.53 0 0 0 2.9-.24c.87.09 1.49-.65 2.26-.26.48-.42 1.16-.23 1.63-.54.32-1.22-1.22-.27-1.71-.85zm-1.74-.74c-.22 0 .05-.34 0 0zm-7.63-11c-.1 0-.08-.12-.16-.15-.8-.37.39-.23.16.19zm6.76 11.39c-.35-.08.28-.25 0 0zm-2.81.11c-.23 0 .18-.14 0 0zm-1.88-1.18c-.13 0 0-.13 0 0zm-.22-.17c-.36 0-.09-.23 0 0zm-.42-.36c-.33.08 0-.34 0 0zm-6-11.66c-.53-.28.11.33-.34.32-.24 0-.69-.52-.54-.78.3.16.83.21.92.5zm-.92-.81h-.11c-.03-.27.87-.06.15.04zm-1.02-.79c-.42-.19 0-.93.44-.58.51.73-.95-.08-.44.58zm.49.69c-.27.11.16-.21 0 0zm.48.92c.6.46-.34 0-.72.29-.61.06.66-.34.72-.29zm.17.6c.35 0 1.88-.69 1.37-.07.47.55.1.37-.21 0 .28.19.06 1-.37.45s-.5-.18-.17.21C5.8 6 4.88 6.28 4.21 6.5c-.43-.04 1.13-.37 1.29-.44zM3.58 7.51c-.16.4.24.53.62.6.62-.17-.41-.28.06-.44.26 0-.82-.26.08-.38S6.09 6.77 7 6.58a8.71 8.71 0 0 1 2.35-.19c.3.35-.23.94-.77 1a8.61 8.61 0 0 1-2 .39c-.8-.1-1.37.61-2.19.7.22-.4-.18-.14-.59-.16.21.82-1.47-.21-.48-.41-.74-.26-.75.52-.67 1-.65-.91.07-1.29.93-1.4zm1.88 1.08c-.22-.05.17-.2 0 0zm-.72.88s-.34-.08-.2-.17c1 .13-.9-.33.13-.22.66-.02.44.36.07.39zm.33.17c-.12.12 0-.24 0 0zm-.71 0c-.44-.09.21-.22 0 0zm-.06 1.43c-.07.1-.1-.08 0 0zM4 10.9c-.55-.19 0-.21 0 0zm-.12 1.28c-.26-.09-.25-.5-.37-.72-.38-1.03.41.4.33.72zm.23-1.49c-.69-.08-.05-.49 0 0zm0-.34h-.09c-.76-.35.45-.17-.02 0zM4 9.56c-.61-.31.58-.36 0 0zm.21.26c-.34.06.05-.32 0 0zm-1.3.07c-.12.08 0-.23 0 0zM3 9.75c-.16 0 0-.27 0 0zm.08-1c-.4-.1.33-.25 0 0zm.26 2c-.44-.1-.12-.65 0 0zm.3 1.25c.42.51.26.79.69 1.41-.56-.35-.67-1.2-1-1.75-.41-.9.23-.01.31.34zm4.09 6.38c-.34-.07-.57-.43-.81-.66a4.88 4.88 0 0 1-1.57-1.94 12.26 12.26 0 0 1-1.46-2.38c-.41-.92.25.07.35.42.21.68.88 1.07.94 1.52.74.42.36 1.12 1 1.31.27-.14.3.84.89.64-.33.15.13.33.3.61.35-.05 1.17.82.36.52zM4.62 12c-.31-.07.33-.11 0 0zm.2.47c-.55-.14.52-.2 0 0zm1.39.47c.4-.17.16.78.55.9.76 1-.53 0-1-.07.06 0-.38-.12-.19-.16-.14-.15-.45-.66.26-.32.6.24.65.06.38-.39zm1.31 1.76c0 .15-.72.13-.06.42-.38 0-.5 0 0 .3-.22.17.43.31.21.57.66.52-.12.13-.4-.08s-.85-.35-.75-.5c.81.42.21 0-.15-.3.65.16-.51-.48.1-.31.19.05-.27-.38.33-.07-.54-.52.47-.12.72-.07zm.48-.17c-.61-.14 0-.34 0 0zm-.17 2c-.61-.26.39 0 0 0zm-.45-.17c-.71-.23.52 0 0 0zm-.09.11c-.22 0 0-.17 0 0zm-1.08-1.55c-.72-.3-.2-.33 0 0zm-.54-.35c-.58-.33-.08-.33 0 0zm0 .65c-.57-.44-.07-.25 0 0zm-.15-1.34c-.35 0 .13-.2 0 0zM8 17.38c-.51-.15 0-.14 0 0zM7.63 17h-.16c-.68-.54.31-.38.75-.14.97.14-.22.39-.59.14zm2.7 1.65c-.68-.16.16-.27 0 0zm-.17-.52c-.05 0-.1-.11 0 0zm-.86-1.34c-.59-.14.21-.19.36 0 1.02.21-.06.26-.36 0zM9.51 18H9.4l-.13-.06c-.56-.59 1.19.28.24.06zm-.28.69c-.15.06 0-.14 0 0zm.29-1.19-.16-.05c-.66-.45.84.09.16 0zm.16 1.72c-.4-.16.26-.25 0 0zm.1-.74c-.58-.14.36-.13 0 0zm.13-.61c-.44-.06.05-.21 0 0zm-.72-.88c.46.06.47.27 0 .14-.09 0-.24 0-.28-.17-.76-.5.03-.25.28-.02zm-.06 2c-.2.12 0-.22 0 0zm-.31-.51c-.53 0 .4-.26 0 0zm-.12.35c-.26-.1.17-.08 0 0zm.3-.89c-.52-.14.25-.18 0 0zm-.16-.57c-.28 0-.06-.16 0 0zm-.54-.95c-.57-.46 1.18.38 0 0zm-.06.19c0 .06-.11-.09 0 0zm3.65 3.78a9.4 9.4 0 0 1-2.56-.85l-.33-.2c-.57-.31-.5-.38.06-.07.19.16 1.59.73.93.35-.29-.07-1.9-.95-.84-.57a20.92 20.92 0 0 0 2.74 1.21 7.14 7.14 0 0 0 2.43.15c.65.33 1.33-.08 2 .21a13.05 13.05 0 0 1-4.45-.23zm-1.25-.7c-.51-.09.16-.23 0 0zm.73-1c-.58-.11.6-.23 0 0zm.84 1.31c1 .37-.6.12-.93-.09-.92-.38.72.09.93.09zm-1.06-1.1c-.81-.12.9 0 0 0zm1.52.85c-.29.23 0-.3 0 0zm.29.05c-.15.06 0-.17 0 0zm.27-.38c-.16.2 0-.23 0 0zm.31 0c-.45.17.47-.39 0 0zm.14 0c.49-.42.51-.22.5.13-.43.48-.17-.2-.44.06s-.19-.1-.06-.17zm.83.45c-.5 0 .51-.54 0 0zm0 .18c-.2.05 0-.13 0 0zm-.16-.35c-.39-.26.94-.61 0 0zm.57.09h-.08c-.03-.23.54-.27.08.02zm.15.19c-.3-.08.47-.4 0 0zm.36-.1c-.51.18.48-.4 0 0zm.22.11-.12.08c-.23-.14.71-.48.12-.07zm-.43-.53c-.54-.18-1.4-.76-2-.37-.8.51.41-.56-.24-.08-.66.79-.45-.5-1.09-.11 0-.12-.57-.16-.17-.37-.36 0-.13-.05 0-.34-.16 0-1 0-1.36-.29-.4-.52.07-.3.48-.23-.67.12.24.5.68.29-.2-.09-.43-.52-1-.9a18.83 18.83 0 0 0-2.13-1c-.84-.5.18-.18.47.08.84.37.51-.51 0-.74-.54 0-.67-.59-1.1-.56.67.11 1.14-.17.39-.85s.3.63-.11.44c-.19-.25-.05-.6-.65-.73 0 .23-.08.58-.21.1-.17 0-.36.21-.5-.28.13-.57-.56-.7-.67-1.06.6.38.87.08.45-.33s-.33-.11-.49 0c-.59.6-.06-1-.32-.56-.26 0-.11.29-.1.65-.86-.21.2.45.45.81-.39-.4-.32.31-.65 0-.11-.3-.12-.77-.67-.85.62-.22-.36-.65-.28-.67.35-.32.4-.76.82-.07-.53 0 0 .88.12.6 0-.47.22-1-.59-1.19-.24.32-.65-.63-.18-.43-.06-.63.74-.26.69-.53.42-.18-.5-.77 0-1 .38.24 1.36-.36.7-.44.42 0 .75.18.79-.24.33.07 1.24.36.42-.09a3.45 3.45 0 0 1 1.13-.25c.79-.61.63 1 .45 1.45.3-.21.24.94.14 1.37.16-.22.23.36 0 .77 0-.07.4-.13.12.35-.22-.47-.31 1-.17.32.37-.61.28 0 .39.24.08.55.32 1.06.4 1.56.35.35-.15.11-.15.59.11-.14.58.19.57.68 0-.78.09-.18.47 0a5.48 5.48 0 0 0 1 1.42c.37.43 0 .13.14.39a3.19 3.19 0 0 0 2.09 1.28 1.46 1.46 0 0 0 1.57.7c-.6.37 1.68.47.91.67-.23.16-.62-.2-1.01-.18zM8.7 15.89c-.24 0 0-.2 0 0zm.38.22c-.18 0-.12-.24 0 0zm-2.61-3.65c-.24-.07.1-.09 0 0zm-.59 0c-.26 0 0-.34 0 0zm-.3-.08c-.1.05 0-.11 0 0zm11 8.25c-.39-.07.32-.22 0 0zm.73-1.05h-.3c.06-.45 1.33-.1 1.85-.09-.16.34-1.13.04-1.55.13zm2 0c-.27 0 .12-.32 0 0zm1-.09c-.25.13 0-.3 0 0zm.48.11c-.52-.12.24-.12.4-.14.94.02 0 .16-.47.16z"
+                ></path>
+                <path
+                  d="M6.51 7.11c1-.2-.38-.33-.69 0 .18.13.41-.21.69 0zm-.82.13c0 .19.18-.22 0 0zm2.62-.48c.67-.11.11-.41-.09.1.07.14.11-.05.09-.1zm-.62.1c.93.36-.05-1 0 0zm-2.92.93a.51.51 0 0 1 .33.1c.75.52-.1-.84-.33-.1z"
+                ></path>
+                <path
+                  d="M4.81 7.43c.16.13.29-.21 0 0zm.37.01.14.12c.68.06-.11-.46-.14-.12zM10.69 16c.09.3 0-.39 0 0zm-4.78-5c.1.18.18-.18 0 0zm.09.61c.19.34 0-.51 0 0zm.21-.49c.33.21-.28-.52 0 0zm-.41-.82c.07.15.24.16.37.2 1.32.61-.95-1-.37-.2zm.54 1.43c.31.53.18-.37 0 0zm.48-.16c.37.92-.23-.12-.3-.43a2.11 2.11 0 0 0 .28 1c.34.51.19-.28.55.23-.2-.45.1-.2.06-.4s-1-1.17-.59-.4zm.36 1.78c.09.31.18 0 0 0zM5.85 9c.06.14.11 0 0 0zm.67.42c.32.41.17-.36 0 0zm-.89 1.14.14.15c.99.29-1.05-.95-.14-.15zm.7-.37c1 .41-.09-.27-.44-.2.11.13.32.07.44.2zm-.18-.44c.18.18.82.51.31.06.32-.06 0-.16-.24-.32-.44-.67.07.06-.07.26z"
+                ></path>
+                <path
+                  d="M5.51 10.64c-.53-.44.16.21-.06.2-.55-.4-.32-.11 0 .2.33.5.6-.3.06-.4zm2.14.64c.12.11-.06-.68 0 0zm1.02-3.5c0 .12.07-.1 0 0zM9 12.47c0 .21 0-.18 0 0zm-.29-1.22c.08.46.1-.78 0 0zm.14.22v.1c.21-.51.04-.79 0-.1zm-.1-2.7c-.14.7-.27.41-.08-.11-.05-.67-.45.41-.27.72.29.47.6-1.16.35-.61zm1.01 5.98c.13.35.11-.42 0 0zm-1.35-4.28c0 .2 0-.14 0 0zm.64 1.7c0 .26.11-.38 0 0zM9.5 14l.07.11c.14-.49-.36-.79-.07-.11zm-1.56-.52c.27.22-.13-.23 0 0zm1.23-.85c.08.29 0-.42 0 0zM8.14 9.81c.15.33-.05-.27 0 0z"
+                ></path>
+                <path
+                  d="M8.3 10.23c.24.34-.26-.64 0 0zm-.06 1.15c-.13-1-.42.45 0 .69.13.34.25.2.3-.19-.32 0 .08-.62-.3-.5z"
+                ></path>
+              </svg>
+              <div>
+                <h3 class="fw-bold mb-0 mx-2 fs-4 text-body-emphasis">
+                  Interactive Flavor Profiles:
+                </h3>
+                <p class="mx-2">
+                  Paragraph of text beneath the heading to explain the heading.
+                </p>
+              </div>
+            </div>
+            <div class="feed5 col d-flex align-items-start">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="45"
+                height="45"
+                viewBox="0 0 24 24"
+                style="fill: rgba(0, 0, 0, 1)"
+              >
+                <path
+                  d="M20 7h-1.209A4.92 4.92 0 0 0 19 5.5C19 3.57 17.43 2 15.5 2c-1.622 0-2.705 1.482-3.404 3.085C11.407 3.57 10.269 2 8.5 2 6.57 2 5 3.57 5 5.5c0 .596.079 1.089.209 1.5H4c-1.103 0-2 .897-2 2v2c0 1.103.897 2 2 2v7c0 1.103.897 2 2 2h12c1.103 0 2-.897 2-2v-7c1.103 0 2-.897 2-2V9c0-1.103-.897-2-2-2zm-4.5-3c.827 0 1.5.673 1.5 1.5C17 7 16.374 7 16 7h-2.478c.511-1.576 1.253-3 1.978-3zM7 5.5C7 4.673 7.673 4 8.5 4c.888 0 1.714 1.525 2.198 3H8c-.374 0-1 0-1-1.5zM4 9h7v2H4V9zm2 11v-7h5v7H6zm12 0h-5v-7h5v7zm-5-9V9.085L13.017 9H20l.001 2H13z"
+                ></path>
+              </svg>
+              <div>
+                <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">
+                  Free Rewards
+                </h3>
+                <p>
+                  Paragraph of text beneath the heading to explain the heading.
+                </p>
+              </div>
+            </div>
+            <div class="feed6 col d-flex align-items-start">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="45"
+                height="45"
+                viewBox="0 0 24 24"
+                style="fill: rgba(0, 0, 0, 1)"
+              >
+                <path
+                  d="M7 22h10a1 1 0 0 0 .99-.858L19.867 8H21V6h-1.382l-1.724-3.447A.998.998 0 0 0 17 2H7c-.379 0-.725.214-.895.553L4.382 6H3v2h1.133L6.01 21.142A1 1 0 0 0 7 22zm10.418-11H6.582l-.429-3h11.693l-.428 3zm-9.551 9-.429-3h9.123l-.429 3H7.867zM7.618 4h8.764l1 2H6.618l1-2z"
+                ></path>
+              </svg>
+              <div>
+                <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">
+                  Free In Store Refills
+                </h3>
+                <p>
+                  Paragraph of text beneath the heading to explain the heading.
+                </p>
+              </div>
+            </div>
+            <div class="feed7 col d-flex align-items-start">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="45"
+                height="45"
+                viewBox="0 0 24 24"
+                style="fill: rgba(0, 0, 0, 1)"
+              >
+                <path
+                  d="M16.604 11.048a5.67 5.67 0 0 0 .751-3.44c-.179-1.784-1.175-3.361-2.803-4.44l-1.105 1.666c1.119.742 1.8 1.799 1.918 2.974a3.693 3.693 0 0 1-1.072 2.986l-1.192 1.192 1.618.475C18.951 13.701 19 17.957 19 18h2c0-1.789-.956-5.285-4.396-6.952z"
+                ></path>
+                <path
+                  d="M9.5 12c2.206 0 4-1.794 4-4s-1.794-4-4-4-4 1.794-4 4 1.794 4 4 4zm0-6c1.103 0 2 .897 2 2s-.897 2-2 2-2-.897-2-2 .897-2 2-2zm1.5 7H8c-3.309 0-6 2.691-6 6v1h2v-1c0-2.206 1.794-4 4-4h3c2.206 0 4 1.794 4 4v1h2v-1c0-3.309-2.691-6-6-6z"
+                ></path>
+              </svg>
+              <div>
+                <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">
+                  Community Gathering Space
+                </h3>
+                <p>
+                  Paragraph of text beneath the heading to explain the heading.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--section4-->
+      <div class="section4">
+        <div class="col">
+          <div class="card shadow-sm">
+            <img
+              src="./images/pexels-fotios-photos-4777704.jpg"
+              width="100%"
+              alt="location1"
+            />
+            <div class="card-body">
+              <p class="card-text">
+                Conveniently situated near the busy Charbagh Railway Station,
+                this Starbucks provides travelers with a quick and reliable
+                caffeine fix, offering extended hours.
+              </p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary"
+                  >
+                    Visit store
+                  </button>
+                </div>
+                <small class="text-body-secondary">9 miles</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="./images/pexels-hngstrm-5016678.jpg" width="100%" height="100%" />
+            <div class="card-body">
+              <p class="card-text">
+                Within the Gomti Nagar business park, this Starbucks prioritizes
+                efficient service, catering to professionals with quick
+                grab-and-go options and mobile ordering.
+              </p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary"
+                  >
+                    Visit store
+                  </button>
+                </div>
+                <small class="text-body-secondary">13 miles</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card shadow-sm">
+            <img
+              src="./images/pexels-suzyhazelwood-3352765.jpg"
+              width="100%"
+              height="100%"
+            />
+            <div class="card-body">
+              <p class="card-text">
+                Within the Gomti Nagar business park, this Starbucks prioritizes
+                efficient service, catering to professionals with quick
+                grab-and-go options and mobile ordering.
+              </p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary"
+                  >
+                    Visit store
+                  </button>
+                </div>
+                <small class="text-body-secondary">13 miles</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="./images/pexels-hngstrm-5016678.jpg" width="100%" height="100%" />
+            <div class="card-body">
+              <p class="card-text">
+                Within the Gomti Nagar business park, this Starbucks prioritizes
+                efficient service, catering to professionals with quick
+                grab-and-go options and mobile ordering.
+              </p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary"
+                  >
+                    Visit store
+                  </button>
+                </div>
+                <small class="text-body-secondary">13 miles</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--Blog section -->
+     <div class="container py-5">
+  <div class="row">
+    <!-- Left Section -->
+    <div class="col-lg-8 col-md-12">
+      <div class="row">
+
+
+        <!-- Card 1 -->
+        <div class="col-md-6 mb-4">
+          <div class="row g-0 border rounded overflow-hidden flex-md-row shadow-sm h-100 position-relative">
+            <div class="col p-4 d-flex flex-column position-static">
+              <strong class="d-inline-block mb-2 text-primary-emphasis">Berlin, Germany</strong>
+              <h3 class="mb-0">Anna's Coffee Chronicles</h3>
+              <div class="mb-1 text-body-secondary">Nov 12</div>
+              <p class="card-text mb-auto">
+                Anna shares her trials and triumphs in becoming a home barista...
+              </p>
+              <a href="#" class="icon-link gap-1 icon-link-hover stretched-link">Continue reading</a>
+            </div>
+            <div class="col-auto d-none d-lg-block">
+            <img 
+  src="./images/pexels-alican-helik-362148343-17992243.jpg" 
+  width="200" 
+  height="250" 
+  alt="Thumbnail" 
+  class="bd-placeholder-img" 
+/>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="col-md-6 mb-4">
+          <div class="row g-0 border rounded overflow-hidden flex-md-row shadow-sm h-100 position-relative">
+            <div class="col p-4 d-flex flex-column position-static">
+              <strong class="d-inline-block mb-2 text-primary-emphasis">Rome, Italy</strong>
+              <h3 class="mb-0">The Traveling Coffee Lover</h3>
+              <div class="mb-1 text-body-secondary">2 hrs ago</div>
+              <p class="card-text mb-auto">
+                A travel blogger recounts their experience of enjoying authentic Italian espresso...
+              </p>
+              <a href="#" class="icon-link gap-1 icon-link-hover stretched-link">Continue reading</a>
+            </div>
+            <div class="col-auto d-none d-lg-block">
+             <img 
+  src="./images/author-1322627_640.jpg" 
+  width="200" 
+  height="250" 
+  alt="Thumbnail" 
+  class="bd-placeholder-img" 
+/>
+            </div>
+          </div>
+        </div>
+  <div class="col-md-6 mb-4">
+          <div class="row g-0 border rounded overflow-hidden flex-md-row shadow-sm h-100 position-relative">
+            <div class="col p-4 d-flex flex-column position-static">
+              <strong class="d-inline-block mb-2 text-primary-emphasis">Rome, Italy</strong>
+              <h3 class="mb-0">The Traveling Coffee Lover</h3>
+              <div class="mb-1 text-body-secondary">2 hrs ago</div>
+              <p class="card-text mb-auto">
+                A travel blogger recounts their experience of enjoying authentic Italian espresso...
+              </p>
+              <a href="#" class="icon-link gap-1 icon-link-hover stretched-link">Continue reading</a>
+            </div>
+            <div class="col-auto d-none d-lg-block">
+             <img 
+  src="./images/ai-generated-8513200_640.jpg" 
+  width="200" 
+  height="250" 
+  alt="Thumbnail" 
+  class="bd-placeholder-img" 
+/>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="col-md-6 mb-4">
+          <div class="row g-0 border rounded overflow-hidden flex-md-row shadow-sm h-100 position-relative">
+            <div class="col p-4 d-flex flex-column position-static">
+              <strong class="d-inline-block mb-2 text-primary-emphasis">Medellín, Colombia</strong>
+              <h3 class="mb-0">Brewed in the Tropics</h3>
+              <div class="mb-1 text-body-secondary">Few seconds ago</div>
+              <p class="card-text mb-auto">
+                A coffee enthusiast shares their experience of exploring Colombia’s coffee-growing regions...
+              </p>
+              <a href="#" class="icon-link gap-1 icon-link-hover stretched-link">Continue reading</a>
+            </div>
+            <div class="col-auto d-none d-lg-block">
+              <img 
+  src="./images/woman-7895953_640.jpg" 
+  width="200" 
+  height="250" 
+  alt="Thumbnail" 
+  class="bd-placeholder-img" 
+/>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Right Section -->
+    <div class="col-lg-4 col-md-12 d-flex justify-content-center align-items-center mb-4">
+      <img src="./images/336469203_11415001.png" class="img-fluid" alt="Side Image" />
+    </div>
+  </div>
+</div>
+
+
+      <!--section5-->
+   <div class="section_5 container my-5">
+  <div class="row row-cols-1 row-cols-md-3 g-4 section5">
+    <div class="col">
+      <div class="card mb-4 rounded-3 shadow-sm h-100">
+        <div class="card-header py-3">
+          <h4 class="my-0 fw-normal">Free</h4>
+        </div>
+        <div class="card-body">
+          <h1 class="card-title pricing-card-title">
+            $0<small class="text-body-secondary fw-light">/mo</small>
+          </h1>
+          <ul class="list-unstyled mt-5 mb-4">
+            <li>Access to coffee blog</li>
+            <li>Access to coffee blends</li>
+            <li>Email support</li>
+            <li>Help center access</li>
+          </ul>
+          <button type="button" class="w-100 btn btn-lg btn-outline-warning">
+            Sign up for free
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card mb-4 rounded-3 shadow-sm h-100">
+        <div class="card-header py-3">
+          <h4 class="my-0 fw-normal">Premium Subscription</h4>
+        </div>
+        <div class="card-body">
+          <h1 class="card-title pricing-card-title">
+          $9.99<small class="text-body-secondary fw-light">/mo</small>
+          </h1>
+          <ul class="list-unstyled mt-5 mb-4">
+            <li>Access to brewing guides</li>
+            <li>Discount on selected products</li>
+            <li>Standard shipping</li>
+            <li>Monthly newsletter</li>
+          </ul>
+          <button type="button" class="w-100 btn btn-lg btn-outline-secondary">
+            Sign up
+          </button>
+        </div>
+      </div>
+    </div>
+
+<div class="col">
+  <div class="card mb-4 rounded-3 shadow-sm h-100">
+    <div class="card-header py-3">
+      <h4 class="my-0 fw-normal">VIP Subscription</h4>
+        </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">
+            $24.99<small class="text-body-secondary fw-light">/mo</small>
+            </h1>
+            <ul class="list-unstyled mt-5 mb-4">
+            <li>Full Size coffee bag</li>
+            <li>Unlimited FREE refills at store</li>
+            <li>Free Shipping on all orders</li>
+            <li>Limited Edition Coffee</li>
+            </ul>
+            <button type="button" class="w-100 btn btn-lg btn-outline-secondary">
+            Yes Please
+            </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+      <!--footer section-->
+      <footer class="footer py-3 my-4">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+          <li class="nav-item">
+            <a href="#" class="nav-link px-2 text-body-secondary">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link px-2 text-body-secondary">Features</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link px-2 text-body-secondary">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link px-2 text-body-secondary">FAQs</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link px-2 text-body-secondary">About</a>
+          </li>
+        </ul>
+        <p class="text-center text-body-secondary">© 2024 Company, Inc</p>
+      </footer>
+
+         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+  </body>
+</html>
